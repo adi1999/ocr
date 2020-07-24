@@ -1,6 +1,6 @@
 error.log
 
-
+/KYC_OCR_YOLO/error.log
 
 *.so
 
@@ -9,7 +9,8 @@ env
 
 /source/__pycache__/*.pyc
 
-/YOLO_AADHAR_OCR/__pycache__/*.pyc
+/KYC_OCR_YOLO/utils/__pycache__/*.pyc
+/KYC_OCR_YOLO/__pycache__/*.pyc
 /YOLO_PAN_OCR/__pycache__/*.pyc
 
 /YOLO_PAN_OCR/utils/__pycache__/*.pyc

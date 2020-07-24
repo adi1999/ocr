@@ -1,6 +1,7 @@
 import pytesseract
 import urllib
 import cv2
+import pyocr
 #from StringIO import StringIO
 import numpy as np
 from PIL import Image
@@ -11,7 +12,7 @@ import csv
 import dateutil.parser as dparser
 from PIL import Image
 import matplotlib.pyplot as plt
-pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+# pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 import ftfy
 import matplotlib.pyplot as plt
 import os
@@ -303,10 +304,6 @@ def process_image_aadhar_front(url=None,path=None):
     # gray = cv2.cvtColor(image.img,cv2.COLOR_BGR2GRAY)
        #print ("Recognizing...")
     text=pytesseract.image_to_string(gray)
-
-    if text is None:
-        data = empty()
-        return data
 
     name = None
     gender = None
