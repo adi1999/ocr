@@ -1,0 +1,54 @@
+error.log
+
+/KYC_OCR_YOLO/error.log
+
+*.so
+
+#virtualenv
+env
+
+/source/__pycache__/*.pyc
+
+/KYC_OCR_YOLO/utils/__pycache__/*.pyc
+/KYC_OCR_YOLO/__pycache__/*.pyc
+/YOLO_PAN_OCR/__pycache__/*.pyc
+
+/YOLO_PAN_OCR/utils/__pycache__/*.pyc
+
+/YOLO_AADHAR_OCR/utils/__pycache__/*.pyc
+
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Nilton Comandos
+comandos_git.sh
+.directory
